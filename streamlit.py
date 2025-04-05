@@ -46,10 +46,3 @@ st.write("- LinkedIn: [Your LinkedIn URL]")
 st.markdown("---")
 st.write("© 2025 Pranay Dev | Built with Streamlit")
 
-with open("resume.pdf", "rb") as file:
-    btn = st.download_button(
-        label="📄 Download My Resume",
-        data=file,
-        file_name="Pranay_Resume.pdf",
-        mime="application/pdf"
-    )
